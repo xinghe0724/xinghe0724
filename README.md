@@ -1,17 +1,57 @@
-## Hi there 👋
+# 👋 你好，我是刘广涛
+中国石油大学（华东）计算机技术硕士研究生，研究方向：**计算机视觉、生成式深度学习、工业视觉检测**。
 
+📫 联系方式：电话：134-6807-2862  邮箱：lgt170319@163.com
 
-<!--
-**xinghe0724/xinghe0724** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🎓 教育背景
+- **硕士 | 计算机技术**｜中国石油大学（华东）｜2024.09‑2027.06
+- **本科 | 物联网工程**｜沈阳航空航天大学｜2020.09‑2024.06
 
-Here are some ideas to get you started:
+## 🔬 研究与论文
+- **StructureLDM: A Latent Diffusion Model for Sketch‑based Structural Analysis**
+  发表于 Pacific Graphics 2026（CCF‑B），面向草图条件生成与结构应力分析的隐扩散模型研究。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💻 技术栈
+- **计算机视觉**：Python、OpenCV、U‑Net、SAM、DBNet；掌握图像分割、目标检测、时序图像匹配、工业视觉标定，具备工业项目落地经验
+- **生成式深度学习**：PyTorch、隐扩散模型、VAE、ControlNet、GAN，条件图像生成
+- **软硬件开发**：PyQT/C++上位机开发、STM32单片机、串口通信、SQL数据库；Android开发、大模型API对接
+
+## 🚀 项目经历
+### 1. 盘旋管石油流量智能检测系统
+> 项目已验收｜2024.12‑2025.09
+面向石油工业流量计量场景，基于工业相机图像实现油气流量全自动测算方案。
+- 搭建盘旋管流体时序图像数据集，针对光照阴影、油气色差、双向流动等难样本建立标准化标注体系
+- 设计螺旋管道中心线拟合算法，统一油段时序坐标，支撑帧间位移计算
+- 使用DBNet完成弧形油段检测，结合U‑Net、SAM实现油段精准分割，通过标定换算得到实际体积
+- 实现时序油段匹配算法，计算流速与总流量；基于PyQT完成结果可视化，解决工业场景误检问题。
+
+**技术栈**：Python、OpenCV、U‑Net、SAM、DBNet、PyQT、图像分割、时序匹配、工业视觉标定
+
+### 2. 智能聊天助手App
+> 已申请软件著作权｜2023.05‑2023.07
+移动端智能助手，支持多领域问答以及文生图功能。
+- 使用Jetpack Compose/XML搭建前端界面，封装消息气泡、图片卡片等可复用组件
+- Retrofit+OkHttp封装网络请求，对接大模型API，实现流式对话、文生图任务提交与结果拉取
+- 基于SSE实现打字机流式输出，ViewModel维护多轮对话，对话记录本地持久化保存
+- 完善异常容错，对网络异常、接口限流、请求超时做交互提示。
+
+**技术栈**：Android Studio、Kotlin/Java、Jetpack Compose、Retrofit、OkHttp、大模型API
+
+### 3. 环境数据实时监测系统｜实习@东软教育科技集团
+> 2023.12‑2024.01
+软硬件协同环境采集监测系统，完成传感器数据采集、传输、存储与可视化。
+- STM32单片机实现环境传感器采集，封装串口通信协议，稳定上传原始数据
+- PyQT开发上位机服务，处理串口粘包、丢包问题，完成数据接收与解析
+- 设计数据表结构，将监测数据存入SQL数据库，支持历史数据回溯查询
+- QT绘图组件绘制实时曲线，可视化展示温湿度等环境参数变化。
+
+**技术栈**：PyQT、C++、STM32、串口通信、SQL、数据可视化
+
+## 📌 研究兴趣
+- 工业视觉检测与测量
+- 条件生成模型、隐扩散模型
+- 草图图像生成与结构分析
+- 桌面端、移动端应用开发
+
+---
+欢迎交流科研与技术合作 ✨
