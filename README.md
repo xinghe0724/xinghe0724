@@ -1,4 +1,6 @@
 ## Hi there 👋
+# *Sketch2Stress:*  Sketching with Structural Stress Awareness 
+###### [**Deng Yu**](https://scholar.google.com/citations?user=Yi4KFWwAAAAJ&hl=en)&nbsp;&nbsp; [**Chufeng Xiao**](https://scholar.google.com/citations?user=2HLwZGYAAAAJ&hl=en&oi=ao) &nbsp;&nbsp; [**Manfred Lau***](https://www.scm.cityu.edu.hk/people/lau-chung-man-manfred) &nbsp;&nbsp;  [**Hongbo Fu***](https://sweb.cityu.edu.hk/hongbofu/)
 
 <!--
 **xinghe0724/xinghe0724** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
