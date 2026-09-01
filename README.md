@@ -8,8 +8,8 @@
 - **本科 | 物联网工程**｜沈阳航空航天大学｜2020.09‑2024.06
 
 ## 🔬 研究与论文
-- **StructureLDM: A Latent Diffusion Model for Sketch‑based Structural Analysis**
-  发表于 Pacific Graphics 2026（CCF‑B），面向草图条件生成与结构应力分析的隐扩散模型研究。
+- **StructureLDM: A Latent Diffusion Model for Sketch‑based Structural Analysis** [项目页面](https://xinghe0724.github.io/StructureLDM/)
+  发表于 Pacific Graphics 2026（CCF‑B），面向草图条件生成与结构应力分析的隐扩散模型研究
 
 ## 💻 技术栈
 - **计算机视觉**：Python、OpenCV、U‑Net、SAM、DBNet；掌握图像分割、目标检测、时序图像匹配、工业视觉标定，具备工业项目落地经验
